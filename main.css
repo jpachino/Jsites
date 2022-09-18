@@ -8,7 +8,7 @@ body, html {
     background-position: center;
     background-size: cover;
     background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-2.jpg");
-    min-height: 75%;
+    min-height: 90%;
 }
       
 #menu {
@@ -40,8 +40,13 @@ body {
 }
 h1{
   justify-content:center;
-  width:50%;
+  /*width:50%;*/
   color:bisque;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive; 
+  font-weight: bold; 
 }
 .container {
   display: flex;
@@ -66,7 +71,7 @@ padding-top: 66%;
 }
 
 .slider__slide {
-  position: absolute;
+  position:absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,8 +96,8 @@ width: 20%;
 
 .slider__nav-button {
   position: absolute;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   background-color: #333;
   opacity: .8;
   cursor: pointer;
@@ -169,5 +174,10 @@ width: 20%;
   height: 12px;
   width: 12px;
 }
-
+.w3-text-white {
+  font-family:Merriweather;
+}
+.w3-button  {
+  border: radius 12px;
+}
 }
