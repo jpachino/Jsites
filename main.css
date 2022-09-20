@@ -40,11 +40,16 @@ ul.b {
     opacity: 0.8; 
 }
 #where {
-   
-    background-position: center;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction:column;
+    
+  
+    /*background-position: center;
     background-size: cover;
     background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-x.jpg");
-    min-height: 75%;
+    min-height: 75%;*/
     
 }
 
@@ -87,8 +92,8 @@ border-radius:10%;
 }
 
 .slider {
-  display: block;
-  position: relative;
+  display:block;
+  position:relative;
   width: 100%;
   max-width: 900px;
   margin: 10px;
