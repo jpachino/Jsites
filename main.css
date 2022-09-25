@@ -1,5 +1,5 @@
    
-body, html {
+body, html,p {
     height: 100%;
     font-family: "Merriweather", sans-serif;
     }
@@ -7,7 +7,7 @@ body, html {
 .bgimg {
     background-position: center;
     background-size: cover;
-    background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-2.jpg");
+    background-image: url("./images/marcos-paulo-prado-_1QHEfxpWKM-unsplash-Custom6.jpg");
     min-height: 92%;
     
 }
@@ -17,68 +17,91 @@ ul.b {
 #menu {
     background-position: center;
     background-size: cover;
+    background-color: whitesmoke;
    /*background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-2.jpg");*/
-    background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-X.jpg");
+   /* background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-X.jpg");*/
     min-height: 70%;
 }
 
-/*.w3-text-white {
-  font-family:Merriweather;
-}*/
+.w3-button{
+background-color:#790716
+}
 .page-footer {
- margin: 30px;
-  width: 60%;
-  /*border: 1px solid #14669c;*/
-  padding: 10px;
-  font-family: "Merriweather", sans-serif;
+  color:whitesmoke;
+  font-size:10px;
+/* margin: 10px;
+  width: 100%;
+  border: 1px solid whitesmoke;
+  background-position: center;
+    background-size: cover;
+   background-image: url("./images/marcos-paulo-prado-_1QHEfxpWKM-unsplash-Custom2.jpg");
+    background-color:gray;
+  
+    min-height: 75%;
+    
+  font-family: "Merriweather", sans-serif;*/
 }
 #about {
   background-position: center;
     background-size: cover;
-    background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-x.jpg");
+    /*background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-x.jpg");*/
+    background-color:whitesmoke;
     min-height: 75%;
-    opacity: 0.8; 
+   /* opacity: 0.8; */
 }
 #where {
-   display:flex;
+   /*display:flex;
    align-items: center;
    justify-content: center;
-   flex-direction:column;
+   flex-direction:column;*/
     
   
-    background-position: center;
-    background-size: cover;
-    background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-x.jpg");
-    min-height: 100%;
+   background-position: center;
+   background-size: cover;
+   /*background-image: url("./images/ian-dooley-hpTH5b6mo2s-unsplash-x.jpg");*/
+   background-color:Whitesmoke;
+   min-height: 100%;
+  /*opacity: 0.7; */
     
 }
-
-
+/*.pic {
+  display:flex;
+  align-items:left;
+  justify-content:center;
+  flex-direction:column;
+}*/
 body {
-  background: #312272;
-  background: linear-gradient(45deg, #7f799b, #7f799b);
+ 
+ background: linear-gradient(45deg, #790716, #790716);
   min-height: 100vh;
 }
 h1{
   justify-content:center;
-  /*width:50%;*/
+
   color:whitesmoke;
 }
 
 h3 {
   font-family: 'Poiret One', cursive; 
   font-weight: bold; 
+  
 }
 h6 {
   font-family: "Merriweather"; 
   font-weight: bold; 
   font-size:20px;
+ 
+ 
 }
 .h5 {
   font-size:20px;
+  font-family: 'Poiret One', cursive; 
+  font-weight: bold; 
+ 
 }
 .w3-text-black {
   font-weight: bold;
+  
 }
 .w3-tag{
 border-radius:10%;
@@ -86,18 +109,22 @@ border-radius:10%;
 
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  color:antiquewhite;
+  align-items:center;
+  justify-content: left;
+  color:whitesmoke;
+  font-weight:bold;
+  margin: 20px;
+  margin-right:20px;
 }
 
 .slider {
-  display:block;
+  display:inline-block;
   position:relative;
   width: 100%;
-  max-width: 900px;
-  margin: 10px;
-  background-color: white;
+  max-width:700px;
+  margin: 20px;
+  right:20px;
+  background-color: #790716;
   overflow: hidden;
 }
 
@@ -108,17 +135,20 @@ padding-top: 66%;
 
 .slider__slide {
   position:absolute;
-  display: flex;
+  display:inline;
   align-items:center;
   justify-content:center;
-  font-size: 50px;
-  font-weight: bold;   
+  margin:10px;
+  margin-right:10px;
+  font-size: 14px;
+  font-weight:200;  
   top: 0;
   left: 0;
+  
   width: 100%;
   height: 100%;
-  background-color: rgb(80, 24, 76);
-  background: linear-gradient(45deg, #8a498a, #7f799b);
+  /*background-color: rgb(80, 24, 76);
+  background: linear-gradient(45deg, #790716, #790716);*/
   transition: 1s;
   opacity: 0;
 }
@@ -141,13 +171,13 @@ width: 20%;
 }
 
 #nav-button--prev {
-  bottom: 15%;
+ bottom:5%;
   left: 0;
   transform: translateY(-50%);
 }
 
 #nav-button--next {
-  bottom: 15%;
+bottom: 5%;
   right: 0;
   transform: translateY(-50%);
 }
@@ -156,7 +186,7 @@ width: 20%;
 #nav-button--next::after {
   content: "";
   position: absolute;
-  border: solid white;
+  border: solid whitesmoke;
   border-width: 0 4px 4px 0;
   display: inline-block;
   padding: 3px;
@@ -189,8 +219,8 @@ width: 20%;
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  border: 1px #fff solid;
-  background-color: #333;
+  border: 4px #fff solid;
+  background-color: #790716;
   opacity: 1;
   margin: 0 10px 0 10px;
   cursor: pointer;
@@ -201,7 +231,9 @@ width: 20%;
   border: 1px #333 solid;
 }
 
-
+.row{
+  margin:20px;
+}
 @media screen and (max-width: 640px) {
 .slider__nav-button {
   height: 30px;
